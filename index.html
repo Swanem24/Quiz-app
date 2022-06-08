@@ -9,23 +9,51 @@
     </head>
 
     <body>
-        <div class="quiz-container">
-            <h2>Question</h2>
+        <div class="quiz-container" id="quiz">
+            <h2 id="question">Question</h2>
             <ul>
                 <li>
                     <input
                         type="radio"
+                        id="a"
+                        name="answer"
+                        class="answer"
                     />
-                    Answer 1
+                    <label id="atext" for="a">Answer A</label>
                 </li>
 
                 <li>
                     <input
                         type="radio"
+                        id="b"
+                        name="answer"
+                        class="answer"
                     />
-                    Answer 2
+                    <label id="btext">Answer B</label>
+                </li>
+
+                <li>
+                    <input
+                        type="radio"
+                        id="c"
+                        name="answer"
+                        class="answer"
+                    />
+                    <label id="ctext">Answer C</label>
+                </li>
+
+                <li>
+                    <input
+                        type="radio"
+                        id="d"
+                        name="answer"
+                        class="answer"
+                    />
+                    <label id="dtext">Answer D</label>
                 </li>
             </ul>
+
+            <button id="submit">Submit</button>
         </div>
     </body>
 </html>
